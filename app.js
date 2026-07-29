@@ -54,6 +54,14 @@
     $("costLabel").textContent = p.costLabel;
     $("costValue").textContent = p.costValue;
     $("costNote").textContent = p.costNote;
+    const comparisonNote = $("comparisonNote");
+    if (p.comparisonNote) {
+      comparisonNote.innerHTML = `<strong>${p.comparisonNote.title}</strong><p>${p.comparisonNote.text}</p>`;
+      comparisonNote.hidden = false;
+    } else {
+      comparisonNote.hidden = true;
+      comparisonNote.innerHTML = "";
+    }
   }
 
   function renderTimeline(p) {

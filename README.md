@@ -25,6 +25,7 @@ Then visit `http://localhost:8000`.
 - Water District No. 9 Extension
 - IBM Community Park Turf Fields
 - Town Pool Renovation
+- Pickleball Courts — neighboring-town comparison case (not North Castle data)
 
 ## Project standard
 
@@ -69,6 +70,17 @@ STEWARD_GitHub/
 Most content and numbers live in `data/projects.js`. Edit the appropriate
 project object, test the application, and complete the source-verification
 checklist before committing the change.
+
+## Scout service plan
+
+Scouts will continue the project by:
+
+- verifying figures against Town records or named officials;
+- updating projects as approvals, bids, funding and construction change;
+- adapting the application for new projects; and
+- teaching residents how to use STEWARD through in-person demonstrations and
+  clear online guidance, with particular attention to older and less
+  technologically experienced residents.
 
 ## Important disclaimer
 

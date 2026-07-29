@@ -263,9 +263,8 @@ window.STEWARD_PROJECTS = {
     statusTone: "active",
     lastVerified: "July 2026",
     verifiedBy: "Finance Department response; earlier process details from The Examiner News",
-    heroImage: "",
-    heroAlt: "",
-    visualClass: "turf-visual",
+    heroImage: "assets/images/ibm-community-park.jpg",
+    heroAlt: "Pre-project aerial field map of North Castle Community Park, commonly known as IBM Community Park",
     summary:
       "Conversion of two fields at IBM Community Park from grass to artificial turf, with related stormwater, netting, backstop, dugout and bench improvements.",
     location: "IBM Community Park, Business Park Drive",
@@ -326,13 +325,38 @@ window.STEWARD_PROJECTS = {
       benchmark: "No calculated property-tax impact is displayed",
       attribution: "Funding and tax-analysis status provided by Abbas Sura, Director of Finance."
     },
-    gallery: [],
+    gallery: [
+      {
+        image: "assets/images/ibm-community-park.jpg",
+        alt: "Pre-project aerial view identifying fields at North Castle Community Park",
+        caption: "Pre-project aerial layout identifying IBM Fields 1–4 and the surrounding facilities.",
+        source: "Armonk Soccer Club field-information page"
+      }
+    ],
     sources: [
       {
         label: "Early process",
         title: "The Examiner News — October 19, 2023",
         href: "https://www.theexaminernews.com/north-castle-to-move-ahead-with-artificial-turf-at-two-town-fields/",
         note: "Secondary-source account of the engineering authorization and early estimate."
+      },
+      {
+        label: "Location and amenities",
+        title: "Town of North Castle — Parks & Facilities",
+        href: "https://www.northcastleny.gov/194/Parks-Facilities",
+        note: "Official Town description of the 23-acre North Castle Community Park."
+      },
+      {
+        label: "Field image and layout",
+        title: "Armonk Soccer Club — Field Information",
+        href: "https://www.armonksoccerclub.org/field-information",
+        note: "Local field names, directions and an aerial Community Park image."
+      },
+      {
+        label: "Related facility record",
+        title: "Community Park athletic-facility bid",
+        href: "https://www.bidnetdirect.com/new-york/townofnorthcastle/solicitations/OPERATION-OF-THE-ATHLETIC-FACILITIES-AT-COMMUNITY-PARK-Bid-Opening-NOW-June-27/0000349442",
+        note: "A separate 2024 operating solicitation documenting the park address and existing enclosed athletic facilities."
       }
     ],
     cautions: [
@@ -437,6 +461,137 @@ window.STEWARD_PROJECTS = {
       "The final Town Board award resolution and executed contract are not yet included.",
       "The $3.21 million figure should not be labeled the final contract amount until the awarded scope is confirmed.",
       "No property-tax-impact analysis has been prepared."
+    ]
+  },
+
+  pickleball: {
+    id: "pickleball",
+    number: "05",
+    name: "Pickleball Courts — Neighboring-Town Example",
+    shortName: "Pickleball Example",
+    category: "Comparison case / Greenwich, CT",
+    status: "Example only — completed elsewhere",
+    statusTone: "complete",
+    lastVerified: "July 2026",
+    verifiedBy: "Town of Greenwich bid and Parks & Recreation records",
+    heroImage: "assets/images/greenwich-pickleball-open.jpg",
+    heroAlt: "New dedicated pickleball courts at the Cohen Eastern Greenwich Civic Center",
+    comparisonNote: {
+      title: "This is not a North Castle project record.",
+      text:
+        "North Castle’s current pickleball proposal, cost, approval and funding data have not yet been provided to STEWARD. Greenwich is shown only as a nearby example of how a recreation project can move from an appropriation and bid process to construction and public use."
+    },
+    summary:
+      "A comparison case showing how the Town of Greenwich developed four dedicated, lighted pickleball courts at the Cohen Eastern Greenwich Civic Center after early bids exceeded available funding.",
+    location: "Cohen Eastern Greenwich Civic Center, Old Greenwich, Connecticut",
+    department: "Greenwich Parks & Recreation",
+    costLabel: "Reported capital budget",
+    costValue: "$625,000",
+    costNote:
+      "Comparison-case figure: $375,000 in earlier capital funding plus a reported $250,000 FY2026 addition. This is not a North Castle estimate or tax calculation.",
+    process: [
+      {
+        date: "2022–2024",
+        title: "Need identified and initial funding assembled",
+        description:
+          "Greenwich planned four dedicated courts and accumulated $375,000 across two capital budget requests.",
+        state: "complete"
+      },
+      {
+        date: "September–October 2024",
+        title: "First competitive bid",
+        description:
+          "RFB 7881 was published. Three responses reportedly exceeded the capital funding then available, so the project did not proceed under that solicitation.",
+        state: "complete"
+      },
+      {
+        date: "FY2026 budget process",
+        title: "Additional funding requested",
+        description:
+          "Parks & Recreation sought an additional $250,000 so the project could be rebid with adequate funding.",
+        state: "complete"
+      },
+      {
+        date: "July–September 2025",
+        title: "Project rebid and construction started",
+        description:
+          "RFB 7902 closed July 23, and the Town announced that construction of four post-tension concrete courts with lighting would begin September 15.",
+        state: "complete"
+      },
+      {
+        date: "June 24, 2026",
+        title: "Courts opened",
+        description:
+          "Greenwich announced the four dedicated courts were open while the contractor completed final punch-list items.",
+        state: "complete"
+      }
+    ],
+    costBreakdown: [
+      ["Earlier capital funding", 375000],
+      ["Additional FY2026 funding reported", 250000]
+    ],
+    funding: [
+      ["Municipal capital appropriations", 625000, "Reported total budget"]
+    ],
+    impact: {
+      type: "none",
+      available: false,
+      heading: "No North Castle resident-impact calculation",
+      explanation:
+        "This comparison explains a municipal approval, budgeting and bidding pathway. Greenwich’s figures cannot be used to estimate a North Castle household tax impact.",
+      benchmark: "North Castle project data must be obtained before any local calculation is shown",
+      attribution: "Comparison information comes from Greenwich public records and clearly labeled reporting on its budget process."
+    },
+    gallery: [
+      {
+        image: "assets/images/greenwich-pickleball-construction.jpg",
+        alt: "Greenwich construction rendering for four dedicated pickleball courts",
+        caption: "Court construction visual released when work began.",
+        source: "Town of Greenwich Parks & Recreation"
+      },
+      {
+        image: "assets/images/greenwich-pickleball-open.jpg",
+        alt: "New Greenwich pickleball courts open for public use",
+        caption: "The completed courts opened in June 2026.",
+        source: "Town of Greenwich Parks & Recreation"
+      }
+    ],
+    sources: [
+      {
+        label: "First bid",
+        title: "Greenwich RFB 7881",
+        href: "https://www.greenwichct.gov/bids.aspx?bidID=507",
+        note: "Initial 2024 solicitation and its supporting documents."
+      },
+      {
+        label: "Rebid",
+        title: "Greenwich RFB 7902",
+        href: "https://www.greenwichct.gov/bids.aspx?bidID=549",
+        note: "The 2025 rebid, exhibits and addendum."
+      },
+      {
+        label: "Funding context",
+        title: "Greenwich pickleball project status summary",
+        href: "https://www.greenwichpickleball.com/news-and-articles/status-update-on-cohen-eastern-greenwich-civic-center-outdoor-pickleball-courts",
+        note: "Secondary summary quoting the Town budget record: $375,000 previously funded and a $250,000 additional request."
+      },
+      {
+        label: "Construction",
+        title: "Town of Greenwich construction announcement",
+        href: "https://www.greenwichct.gov/m/newsflash/Home/Detail/2983",
+        note: "Official scope, start date and expected construction period."
+      },
+      {
+        label: "Completion",
+        title: "Town of Greenwich opening announcement",
+        href: "https://www.greenwichct.gov/m/newsflash/Home/Detail/3315",
+        note: "Official June 2026 opening and punch-list status."
+      }
+    ],
+    cautions: [
+      "All dollar figures and milestones in this tab belong to Greenwich, Connecticut—not North Castle.",
+      "The $625,000 figure is a reported municipal capital budget, not a verified North Castle estimate or a tax-impact calculation.",
+      "A future North Castle pickleball entry must replace this example with local scope, approvals, bids, funding and resident-impact records."
     ]
   }
 };
