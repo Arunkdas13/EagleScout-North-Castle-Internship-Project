@@ -489,6 +489,12 @@ window.STEWARD_PROJECTS = {
     costValue: "Not yet available",
     costNote:
       "No authoritative North Castle construction estimate, appropriation, final funding plan or bid is displayed. Greenwich’s reported $625,000 capital budget is comparison information only.",
+    story: {
+      context: "North Castle already offers pickleball on shared, lined tennis courts at Lombardi Park. The new concept responds to demand for dedicated courts while tying the proposal to a broader Lombardi Park site plan.",
+      people: "Current pickleball players would gain dedicated space; tennis users could face fewer scheduling conflicts. Nearby park users and Cox Avenue-area neighbors could experience changes in activity, parking, lighting and noise, while youth baseball and other park programs depend on coordinated circulation and parking.",
+      discussion: "Residents appeared before the Town Board in April supporting dedicated courts. Town staff and the engineer evaluated sites, and the May 27 work session focused on the Lombardi concept: four courts west of the tennis courts, removal of five storage containers, and associated parking and site improvements.",
+      next: "The Town must decide whether to advance the Lombardi concept, refine noise/lighting/parking and site-design details, establish a budget and funding source, authorize final design, and ultimately decide whether to bid construction."
+    },
     process: [
       {
         date: "April 7, 2026",
@@ -518,13 +524,7 @@ window.STEWARD_PROJECTS = {
           "The Town Board discussed the Lombardi concept at its May 27 work session. STEWARD has not located a construction authorization, final appropriation, bid solicitation, contractor award or start date.",
         state: "unknown"
       },
-      {
-        date: "Neighboring-town example",
-        title: "Greenwich advanced from funding to rebid, construction and opening",
-        description:
-          "Greenwich assembled capital funding, rejected an unaffordable first bid round, added funding, rebid the work, built four lighted courts and opened them in June 2026. These are not North Castle milestones.",
-        state: "complete"
-      }
+      {date:"Next phase—not yet reached",title:"Budget, authorization and procurement",description:"A construction budget, funding decision, final design authorization, bid solicitation and contract award have not been established in the records linked here.",state:"future"}
     ],
     costBreakdown: [],
     funding: [],
@@ -537,20 +537,7 @@ window.STEWARD_PROJECTS = {
       benchmark: "North Castle project data must be obtained before any local calculation is shown",
       attribution: "Comparison information comes from Greenwich public records and clearly labeled reporting on its budget process."
     },
-    gallery: [
-      {
-        image: "assets/images/greenwich-pickleball-construction.jpg",
-        alt: "Greenwich construction rendering for four dedicated pickleball courts",
-        caption: "Court construction visual released when work began.",
-        source: "Town of Greenwich Parks & Recreation"
-      },
-      {
-        image: "assets/images/greenwich-pickleball-open.jpg",
-        alt: "New Greenwich pickleball courts open for public use",
-        caption: "The completed courts opened in June 2026.",
-        source: "Town of Greenwich Parks & Recreation"
-      }
-    ],
+    gallery: [],
     sources: [
       {
         label: "North Castle status",
@@ -570,42 +557,45 @@ window.STEWARD_PROJECTS = {
         href: "https://www.northcastleny.com/AgendaCenter/ViewFile/Agenda/_04072026-1021",
         note: "Lists Pickleball Courts in North Castle under project updates."
       },
-      {
-        label: "First bid",
-        title: "Greenwich RFB 7881",
-        href: "https://www.greenwichct.gov/bids.aspx?bidID=507",
-        note: "Initial 2024 solicitation and its supporting documents."
-      },
-      {
-        label: "Rebid",
-        title: "Greenwich RFB 7902",
-        href: "https://www.greenwichct.gov/bids.aspx?bidID=549",
-        note: "The 2025 rebid, exhibits and addendum."
-      },
-      {
-        label: "Funding context",
-        title: "Greenwich pickleball project status summary",
-        href: "https://www.greenwichpickleball.com/news-and-articles/status-update-on-cohen-eastern-greenwich-civic-center-outdoor-pickleball-courts",
-        note: "Secondary summary quoting the Town budget record: $375,000 previously funded and a $250,000 additional request."
-      },
-      {
-        label: "Construction",
-        title: "Town of Greenwich construction announcement",
-        href: "https://www.greenwichct.gov/m/newsflash/Home/Detail/2983",
-        note: "Official scope, start date and expected construction period."
-      },
-      {
-        label: "Completion",
-        title: "Town of Greenwich opening announcement",
-        href: "https://www.greenwichct.gov/m/newsflash/Home/Detail/3315",
-        note: "Official June 2026 opening and punch-list status."
-      }
+      {label:"Existing park",title:"North Castle Parks & Facilities",href:"https://www.northcastleny.gov/194/Parks-Facilities",note:"Official description and address of Lombardi Park’s existing facilities."}
     ],
     cautions: [
       "Lombardi Park is the documented conceptual site, but a concept drawing is not a construction approval or award.",
       "No verified North Castle construction cost, final funding plan or household-impact figure is currently displayed.",
       "The $625,000 Greenwich figure and all Greenwich milestones are comparison information—not North Castle data."
-    ]
+    ],
+    comparisonCase: {
+      title: "How Greenwich moved four dedicated courts from idea to opening",
+      summary: "This is a separate municipal case study—not part of North Castle’s timeline or finances. Greenwich’s experience is useful because its first bid round exceeded available funding, forcing the Town to add capital funding and rebid before construction could begin.",
+      process: [
+        {date:"2022–2024",title:"Need and initial capital funding",description:"Greenwich planned four dedicated, lighted courts at the Cohen Eastern Greenwich Civic Center and accumulated $375,000 through capital requests.",state:"complete"},
+        {date:"September–October 2024",title:"First bid exceeded available funding",description:"Greenwich issued RFB 7881. The reported responses were above the available capital budget, so the Town did not simply force the project forward.",state:"complete"},
+        {date:"FY2026 budget",title:"Additional funding added",description:"Parks & Recreation sought another $250,000 to align the budget with market pricing and permit a new solicitation.",state:"complete"},
+        {date:"July–September 2025",title:"Rebid and construction",description:"RFB 7902 closed in July. Construction began in September for four post-tension concrete courts with lighting.",state:"complete"},
+        {date:"June 24, 2026",title:"Courts opened",description:"Greenwich opened the four courts while final punch-list work continued.",state:"complete"}
+      ],
+      finance: [
+        ["Earlier capital funding","$375,000","Reported across two capital requests"],
+        ["Additional FY2026 funding","$250,000","Added after the first bids exceeded available funds"],
+        ["Reported municipal budget","$625,000","Greenwich only—not a North Castle estimate"]
+      ],
+      lessons: [
+        "Develop a site-specific concept before promising a construction schedule.",
+        "Test lighting, noise, drainage, parking and neighborhood effects as part of design.",
+        "Treat bid results as new evidence: if prices exceed the budget, revise funding or scope and rebid transparently.",
+        "Do not apply Greenwich’s dollar figures to North Castle without a local design and competitive pricing."
+      ],
+      gallery: [
+        {image:"assets/images/greenwich-pickleball-construction.jpg",alt:"Greenwich construction visual for four courts",caption:"Construction-phase court visual",source:"Town of Greenwich Parks & Recreation"},
+        {image:"assets/images/greenwich-pickleball-open.jpg",alt:"Completed Greenwich pickleball courts",caption:"Four completed courts opened in June 2026",source:"Town of Greenwich Parks & Recreation"}
+      ],
+      sources: [
+        {title:"Greenwich RFB 7881",href:"https://www.greenwichct.gov/bids.aspx?bidID=507",note:"First solicitation"},
+        {title:"Greenwich RFB 7902",href:"https://www.greenwichct.gov/bids.aspx?bidID=549",note:"Rebid documents"},
+        {title:"Construction announcement",href:"https://www.greenwichct.gov/m/newsflash/Home/Detail/2983",note:"Official scope and start"},
+        {title:"Opening announcement",href:"https://www.greenwichct.gov/m/newsflash/Home/Detail/3315",note:"Official opening status"}
+      ]
+    }
   },
 
   clove: {
@@ -613,9 +603,15 @@ window.STEWARD_PROJECTS = {
     category: "Parks and recreation", status: "Construction complete / opening pending", statusTone: "complete",
     lastVerified: "August 2026", verifiedBy: "North Castle Parks records and Supervisor’s May 2026 update",
     heroImage: "", heroAlt: "Clove Road Park project image not yet added",
-    summary: "Renovation of two ballfields at Clove Road Park in North White Plains. The Town reported construction complete in May 2026 and said an official opening and ribbon-cutting update would follow.",
+    summary: "A neighborhood recreation investment in North White Plains focused on restoring two heavily used baseball/softball fields. Work included new sod on the ballfields; the Town reported construction complete in May 2026 and planned an opening ceremony.",
     location: "Clove Road Park, North Broadway and Clove Road, North White Plains", department: "Parks & Recreation",
     costLabel: "Verified project cost", costValue: "Not yet available", costNote: "The official status sources located for STEWARD do not provide a complete cost, award or funding breakdown.",
+    story:{
+      context:"Clove Road Park contains a community center, multi-purpose field and Little League facilities. The project is about field quality and safe, dependable neighborhood recreation—not a new destination complex.",
+      people:"Kensico Little League, youth teams, families and North White Plains residents are the direct users. Better sod and field conditions increase playable time and reduce poor-surface disruptions; construction temporarily limited access.",
+      discussion:"Parks minutes tracked the contractor’s winter pause and planned return after snowmelt. The Supervisor’s April update reported sod installation underway, and the May update reported both renovated fields complete.",
+      next:"The remaining transparency task is financial: link the scope, bid, award, contractor, funding source and final expenditures, then record the public opening and operating results."
+    },
     process: [
       {date:"January–February 2026",title:"Construction paused for winter",description:"Recreation-board minutes reported that the same contractor working on the IBM turf project would return after snow melted.",state:"complete"},
       {date:"May 2026",title:"Field work completed",description:"The Supervisor reported that work was complete on two newly renovated ballfields.",state:"complete"},
@@ -638,9 +634,15 @@ window.STEWARD_PROJECTS = {
     category: "District water infrastructure", status: "Bid solicitation documented", statusTone: "active",
     lastVerified: "August 2026", verifiedBy: "Official North Castle bid posting",
     heroImage: "", heroAlt: "Water District No. 4 well project image not yet added",
-    summary: "Site work for a prefabricated water-treatment building and the startup and testing needed to incorporate a new bedrock water-supply well into Water District No. 4.",
+    summary: "A water-supply reliability project to place a new bedrock well, SD2-1, into service through a prefabricated treatment building, site work, startup and testing at the Water District No. 4 property.",
     location: "Water District No. 4 property, 15 Business Park Drive, Armonk", department: "Sewer & Water / Water District No. 4",
     costLabel: "Awarded project cost", costValue: "Not yet verified", costNote: "The official posting documents the competitive bid stage, but the page reviewed for STEWARD does not establish the awarded amount or final funding plan.",
+    story:{
+      context:"The physical building is only one part of the story: the public purpose is to incorporate a new groundwater source into an operating district system, with treatment, controls, testing and startup required before dependable service.",
+      people:"Water District No. 4 customers are the primary beneficiaries because supply capacity and reliability affect household and business water service. District ratepayers could also bear project costs, but no verified assessment calculation is currently linked.",
+      discussion:"The public record located is procurement-focused: advertisement, mandatory site meeting, technical questions, addenda and sealed bidding. That shows a mature design/bid stage, but it does not prove an award or completed construction.",
+      next:"Confirm the bid tabulation and Town Board award, identify the contractor and funding source, document regulatory/startup milestones, and determine whether district rates or assessments are affected."
+    },
     process:[
       {date:"March 20, 2025",title:"Bid advertised",description:"The Town published the site-work solicitation and made plans and specifications available.",state:"complete"},
       {date:"April 1, 2025",title:"Pre-bid meeting",description:"A project pre-bid meeting was scheduled at the site.",state:"complete"},
@@ -659,9 +661,15 @@ window.STEWARD_PROJECTS = {
     category: "Parks and recreation", status: "Planning and neighborhood engagement", statusTone: "planning",
     lastVerified: "August 2026", verifiedBy: "North Castle Parks & Recreation minutes",
     heroImage: "", heroAlt: "Quarry Park project image not yet added",
-    summary: "A proposed improvement effort for the small Quarry Park in North White Plains, including cleanup, a formal survey and park-boundary records, and a possible basketball area.",
+    summary: "A small-neighborhood park improvement in Quarry Heights involving clearing and cleanup, updated playground elements, a formal boundary survey and a proposed basketball pad. The project has required direct discussion with nearby residents about activity and neighborhood effects.",
     location: "Quarry Park, off Old Orchard Street, Quarry Heights", department: "Parks & Recreation",
     costLabel: "Project cost", costValue: "Not yet available", costNote: "The minutes describe a developing concept, not an approved construction budget or award.",
+    story:{
+      context:"Quarry Park is a compact neighborhood park, so even a modest basketball area can materially change how often and when the space is used. The survey and boundary work also correct a basic records gap before permanent improvements proceed.",
+      people:"Children and families in Quarry Heights gain nearby recreation and refreshed playground space. Immediate neighbors are especially affected by potential noise, hours, traffic and all-day use because the park sits within a residential setting.",
+      discussion:"The Town received a petition opposing a basketball court in September 2025. January minutes record concern about all-day/all-night activity and a plan to meet affected residents. By February, the Town said clarifications had eased concern and planned cleanup, survey, boundary documentation and a basketball area; clearing was underway by April.",
+      next:"Clarify the final pad design, hours and neighborhood safeguards; document whether the work has formal authorization; and publish the cost, funding, procurement path and completion status."
+    },
     process:[
       {date:"January 2026",title:"Basketball concept and resident concerns",description:"Minutes describe a proposed half-court basketball pad and neighborhood concerns about potential activity and hours.",state:"complete"},
       {date:"February 2026",title:"Survey and boundaries added to planning",description:"The Town planned cleanup, an official survey, accurate park-boundary records and a basketball area.",state:"complete"},
