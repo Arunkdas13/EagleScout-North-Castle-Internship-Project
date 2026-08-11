@@ -25,7 +25,10 @@ Then visit `http://localhost:8000`.
 - Water District No. 9 Extension
 - IBM Community Park Turf Fields
 - Town Pool Renovation
-- Pickleball Courts — neighboring-town comparison case (not North Castle data)
+- North Castle Pickleball Courts — concept/site-options stage, followed by a clearly labeled Greenwich comparison
+- Clove Road Ballfield Renovations
+- Water District No. 4 — Well SD2-1 Treatment Building
+- Quarry Park Improvements
 
 ## Project standard
 

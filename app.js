@@ -74,6 +74,9 @@
   }
 
   function renderFinanceRows(rows, includeStatus, showTotal = true) {
+    if (!rows.length) {
+      return `<div class="empty-impact"><strong>Not yet available</strong><p>No authoritative cost or funding amount has been published in the records currently linked to STEWARD.</p></div>`;
+    }
     const max = Math.max(...rows.map((row) => row[1]), 1);
     const total = rows.reduce((sum, row) => sum + row[1], 0);
     const rowsHtml = rows.map((row) => `
