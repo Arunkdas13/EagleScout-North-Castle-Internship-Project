@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="STEWARD helps North Castle residents understand capital projects, funding, timelines and potential household impacts.">
+  <title>STEWARD | North Castle Project Explorer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="STEWARD home">
+      <span class="brand-mark">S</span>
+      <span><strong>STEWARD</strong><small>North Castle Project Explorer</small></span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#projects">Projects</a>
+      <a href="#timeline">Process</a>
+      <a href="#funding">Funding</a>
+      <a href="#impact">Resident impact</a>
+      <a href="#scouts">Scouts</a>
+      <a href="#sources">Sources</a>
+    </nav>
+    <span class="prototype-tag">Public prototype</span>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Fiscal transparency, made understandable</p>
+        <h1>Every project.<br><em>Every dollar.</em><br>Your community.</h1>
+        <p class="hero-lede">
+          Follow North Castle capital projects from the first proposal through approvals,
+          bidding, funding and resident impact—with direct links to the records behind the numbers.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore the projects</a>
+          <a class="button button-secondary" href="#methodology">How STEWARD works</a>
+        </div>
+      </div>
+      <aside class="hero-summary" aria-label="Application summary">
+        <p>Current project library</p>
+        <strong>8 projects</strong>
+        <dl>
+          <div><dt>Town-wide proposals</dt><dd>1</dd></div>
+          <div><dt>District infrastructure</dt><dd>2</dd></div>
+          <div><dt>Parks & recreation</dt><dd>5</dd></div>
+          <div><dt>Source-linked</dt><dd>Yes</dd></div>
+        </dl>
+        <span>Last updated August 2026</span>
+      </aside>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">What is STEWARD?</p>
+          <h2>One understandable path from a Town proposal to a resident’s bottom line.</h2>
+        </div>
+        <p>
+          STEWARD stands for <strong>Simple Transparency &amp; Education With Accessible Resident Data</strong>.
+          It turns scattered public records into a consistent, source-linked explanation of each capital project.
+        </p>
+      </div>
+      <div class="steward-path" aria-label="How STEWARD organizes a capital project">
+        <article><span>01</span><h3>What is proposed?</h3><p>Purpose, location, scope and the public need.</p></article>
+        <article><span>02</span><h3>Where is it now?</h3><p>Review, approval, design, bidding, construction or completion.</p></article>
+        <article><span>03</span><h3>What does it cost?</h3><p>Estimates, bids, awards and actual spending stay clearly labeled.</p></article>
+        <article><span>04</span><h3>How is it funded?</h3><p>Fund balance, bonds, grants, contributions and other sources.</p></article>
+        <article><span>05</span><h3>How could it affect me?</h3><p>Resident impact is calculated only when a documented method exists.</p></article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Project library</p>
+          <h2>Choose a project to follow its full story.</h2>
+        </div>
+        <p>
+          Every project uses the same framework: purpose, process, cost, funding,
+          resident impact, sources and verification status.
+        </p>
+      </div>
+      <div class="project-tabs" id="projectTabs" role="tablist" aria-label="Select a project"></div>
+    </section>
+
+    <section class="project-banner" id="projectBanner">
+      <div class="project-visual" id="projectVisual"></div>
+      <div class="project-banner-copy">
+        <div class="project-meta">
+          <span class="status-pill" id="projectStatus"></span>
+          <span id="projectCategory"></span>
+        </div>
+        <h2 id="projectName"></h2>
+        <p id="projectSummary"></p>
+        <dl class="project-facts">
+          <div><dt>Location</dt><dd id="projectLocation"></dd></div>
+          <div><dt>Lead area</dt><dd id="projectDepartment"></dd></div>
+          <div><dt>Last verified</dt><dd id="projectVerified"></dd></div>
+        </dl>
+      </div>
+      <div class="headline-cost">
+        <span id="costLabel"></span>
+        <strong id="costValue"></strong>
+        <p id="costNote"></p>
+      </div>
+    </section>
+    <div class="comparison-note" id="comparisonNote" hidden></div>
+
+    <section class="section timeline-section" id="timeline">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Timeline and process</p>
+          <h2>Where the project has been—and what comes next.</h2>
+        </div>
+        <p>Completed events and future steps are separated so a proposal never looks like an approval.</p>
+      </div>
+      <ol class="timeline" id="timelineList"></ol>
+    </section>
+
+    <section class="section finance-section" id="funding">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Costs and funding</p>
+          <h2>How the project is assembled financially.</h2>
+        </div>
+        <p>Amounts retain their original status: estimated, proposed, awarded, spent or still awaiting verification.</p>
+      </div>
+      <div class="finance-grid">
+        <article class="finance-card">
+          <header><span>01</span><div><h3>Cost breakdown</h3><p>What the price includes</p></div></header>
+          <div id="costBreakdown"></div>
+        </article>
+        <article class="finance-card">
+          <header><span>02</span><div><h3>Funding sources</h3><p>Where the money comes from</p></div></header>
+          <div id="fundingBreakdown"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="impact-section" id="impact">
+      <div class="impact-intro">
+        <p class="eyebrow">Resident impact</p>
+        <h2 id="impactHeading"></h2>
+        <p id="impactExplanation"></p>
+        <div class="benchmark" id="impactBenchmark"></div>
+        <p class="attribution" id="impactAttribution"></p>
+      </div>
+      <div class="calculator" id="calculator"></div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Project visuals</p>
+          <h2>Plans, maps and source-document views.</h2>
+        </div>
+        <p>Every image includes a caption and source. Missing official images are identified rather than replaced with unrelated stock photography.</p>
+      </div>
+      <div class="gallery" id="galleryGrid"></div>
+    </section>
+
+    <section class="sources-section" id="sources">
+      <div class="section-heading section-heading-light">
+        <div>
+          <p class="eyebrow">Trace every number</p>
+          <h2>Open the records behind this project.</h2>
+        </div>
+        <p>Links open the underlying PDF, Town material or clearly labeled secondary source.</p>
+      </div>
+      <div class="source-grid" id="sourceGrid"></div>
+      <div class="caution-box">
+        <strong>Read before using these figures</strong>
+        <ul id="cautionList"></ul>
+      </div>
+    </section>
+
+    <section class="section methodology-section" id="methodology">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">The STEWARD standard</p>
+          <h2>Facts, estimates and unknowns stay separate.</h2>
+        </div>
+      </div>
+      <div class="method-grid">
+        <article><span>1</span><h3>Collect</h3><p>Gather Town PDFs, bid files, Board materials, financial models and verified staff responses.</p></article>
+        <article><span>2</span><h3>Classify</h3><p>Label every figure as estimated, proposed, approved, awarded, spent or awaiting verification.</p></article>
+        <article><span>3</span><h3>Calculate</h3><p>Only calculate household impact when authoritative inputs and a defensible formula are available.</p></article>
+        <article><span>4</span><h3>Maintain</h3><p>Scouts re-check sources, add new records and update projects as they move forward.</p></article>
+      </div>
+    </section>
+
+    <section class="scout-section" id="scouts">
+      <div class="scout-copy">
+        <p class="eyebrow">The Eagle Scout project continues</p>
+        <h2>Scouts will keep STEWARD accurate, current and accessible.</h2>
+        <p>
+          The application is the foundation. The continuing service is maintaining its public value
+          as projects, bids, funding decisions and resident needs change.
+        </p>
+      </div>
+      <div class="scout-grid">
+        <article><span>01</span><h3>Verify the data</h3><p>Trace every figure to a Town record or named official, test links and flag estimates or missing information.</p></article>
+        <article><span>02</span><h3>Update and adapt</h3><p>Add new bids, approvals, funding decisions and completed-project figures; adapt the format as new fall projects emerge.</p></article>
+        <article><span>03</span><h3>Teach residents</h3><p>Offer in-person demonstrations and simple online guidance, especially for older residents and people who are less comfortable with technology.</p></article>
+        <article><span>04</span><h3>Build civic confidence</h3><p>Help residents use the application, open the original sources and understand how local decisions connect to public finances.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <strong>STEWARD</strong>
+      <span>Simple Transparency & Education With Accessible Resident Data</span>
+    </div>
+    <p>
+      Educational prototype created by Arun Das for the Town of North Castle and his Eagle Scout project.
+      Calculations are estimates; consult official Town records before making financial decisions.
+    </p>
+  </footer>
+
+  <script src="data/projects.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
