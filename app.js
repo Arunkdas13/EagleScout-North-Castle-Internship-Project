@@ -64,6 +64,16 @@
     }
   }
 
+  function renderStory(p) {
+    const section = $("projectStory");
+    if (!p.story) { section.hidden = true; return; }
+    section.hidden = false;
+    $("storyContext").textContent = p.story.context;
+    $("storyPeople").textContent = p.story.people;
+    $("storyDiscussion").textContent = p.story.discussion;
+    $("storyNext").textContent = p.story.next;
+  }
+
   function renderTimeline(p) {
     $("timelineList").innerHTML = p.process.map((step) => `
       <li class="${step.state}">
@@ -231,6 +241,21 @@
       </figure>`).join("");
   }
 
+  function renderComparison(p) {
+    const section = $("comparisonCase");
+    const c = p.comparisonCase;
+    if (!c) { section.hidden = true; return; }
+    section.hidden = false;
+    $("comparisonTitle").textContent = c.title;
+    $("comparisonSummary").textContent = c.summary;
+    $("comparisonTimeline").innerHTML = c.process.map((step) => `
+      <li class="${step.state}"><time>${step.date}</time><h3>${step.title}</h3><p>${step.description}</p></li>`).join("");
+    $("comparisonFinance").innerHTML = c.finance.map((row) => `<div class="comparison-figure"><span>${row[0]}</span><strong>${row[1]}</strong><small>${row[2]}</small></div>`).join("");
+    $("comparisonLessons").innerHTML = c.lessons.map((x) => `<li>${x}</li>`).join("");
+    $("comparisonGallery").innerHTML = c.gallery.map((item) => `<figure><img src="${item.image}" alt="${item.alt}"><figcaption><strong>${item.caption}</strong>${item.source}</figcaption></figure>`).join("");
+    $("comparisonSources").innerHTML = c.sources.map((s) => `<a href="${s.href}" target="_blank" rel="noopener"><strong>${s.title}</strong><span>${s.note}</span></a>`).join("");
+  }
+
   function renderSources(p) {
     $("sourceGrid").innerHTML = p.sources.map((source) => `
       <article class="source-card">
@@ -246,10 +271,12 @@
     const p = projects[activeKey];
     renderTabs();
     renderProjectHeader(p);
+    renderStory(p);
     renderTimeline(p);
     renderFinance(p);
     renderImpact(p);
     renderGallery(p);
+    renderComparison(p);
     renderSources(p);
     document.title = `${p.shortName} | STEWARD`;
   }
