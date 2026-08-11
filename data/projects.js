@@ -470,7 +470,7 @@ window.STEWARD_PROJECTS = {
     name: "North Castle Pickleball Courts",
     shortName: "Pickleball Courts",
     category: "North Castle concept + Greenwich comparison",
-    status: "Site-options evaluation / no approved project yet",
+    status: "Conceptual design / pre-procurement",
     statusTone: "planning",
     lastVerified: "August 2026",
     verifiedBy: "North Castle Supervisor’s May 2026 update and official Greenwich records",
@@ -479,16 +479,16 @@ window.STEWARD_PROJECTS = {
     comparisonNote: {
       title: "North Castle first; Greenwich only as a process example.",
       text:
-        "North Castle is evaluating whether and where dedicated outdoor courts could be developed. No selected site, approved scope, budget, funding plan or bid was found in the linked Town records. The completed Greenwich project appears below only to illustrate later steps that North Castle has not yet reached."
+        "North Castle is considering a conceptual Lombardi Park plan for four dedicated courts west of the existing tennis courts. The plan would remove five storage containers and includes related parking, drainage and retaining-wall work. No construction bid, contractor selection or final funding plan is shown in the linked records. Greenwich appears below only to illustrate later steps North Castle has not yet reached."
     },
     summary:
-      "North Castle residents have expressed support for dedicated outdoor pickleball courts. The Town reported that it was working with the Town Engineer to evaluate possible locations; the official records currently linked here do not identify a selected North Castle site or approved construction plan.",
-    location: "North Castle — site not yet selected in the located official records",
+      "North Castle is considering four dedicated outdoor pickleball courts at Lombardi Park. The May 27, 2026 Town Board materials show a conceptual layout west of the existing tennis courts, replacing five on-site storage containers and coordinating the courts with drainage, retaining walls and parking improvements.",
+    location: "John A. Lombardi Park, 85 Cox Avenue, Armonk — west of the existing tennis courts",
     department: "North Castle Parks & Recreation / Town Engineer / Town Board",
     costLabel: "North Castle project cost",
     costValue: "Not yet available",
     costNote:
-      "No authoritative North Castle estimate, appropriation, funding plan or bid was found. Greenwich’s reported $625,000 capital budget is displayed only in the comparison portion below.",
+      "No authoritative North Castle construction estimate, appropriation, final funding plan or bid is displayed. Greenwich’s reported $625,000 capital budget is comparison information only.",
     process: [
       {
         date: "April 7, 2026",
@@ -506,16 +506,16 @@ window.STEWARD_PROJECTS = {
       },
       {
         date: "May 2026",
-        title: "Possible locations under evaluation",
+        title: "Lombardi Park concept developed",
         description:
-          "The Town reported that it was working with the Town Engineer to evaluate options and scheduled a May 27 work session to discuss possible locations.",
+          "The Town worked with its engineer on site options. Conceptual drawings dated May 21 show four courts west of Lombardi Park’s tennis courts, removal of five storage containers, and related parking and site work.",
         state: "complete"
       },
       {
         date: "Current verified stage",
-        title: "Concept and site-options stage",
+        title: "Conceptual design and pre-procurement",
         description:
-          "STEWARD has not located an official selected site, design, environmental review, appropriation, funding decision, bid solicitation or construction award.",
+          "The Town Board discussed the Lombardi concept at its May 27 work session. STEWARD has not located a construction authorization, final appropriation, bid solicitation, contractor award or start date.",
         state: "unknown"
       },
       {
@@ -560,6 +560,12 @@ window.STEWARD_PROJECTS = {
       },
       {
         label: "North Castle agenda",
+        title: "Town Board work session — May 27, 2026",
+        href: "https://northcastleny.portal.civicclerk.com/event/1984/files",
+        note: "Official meeting record for the Lombardi Park pickleball discussion and conceptual drawings."
+      },
+      {
+        label: "Earlier project status",
         title: "Parks & Recreation Advisory Board — April 7, 2026",
         href: "https://www.northcastleny.com/AgendaCenter/ViewFile/Agenda/_04072026-1021",
         note: "Lists Pickleball Courts in North Castle under project updates."
@@ -596,8 +602,8 @@ window.STEWARD_PROJECTS = {
       }
     ],
     cautions: [
-      "No North Castle site is presented as selected because the located official records only document evaluation of possible locations.",
-      "No North Castle cost, funding or household-impact figure is currently displayed.",
+      "Lombardi Park is the documented conceptual site, but a concept drawing is not a construction approval or award.",
+      "No verified North Castle construction cost, final funding plan or household-impact figure is currently displayed.",
       "The $625,000 Greenwich figure and all Greenwich milestones are comparison information—not North Castle data."
     ]
   },
