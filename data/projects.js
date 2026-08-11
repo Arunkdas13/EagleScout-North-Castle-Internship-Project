@@ -467,78 +467,73 @@ window.STEWARD_PROJECTS = {
   pickleball: {
     id: "pickleball",
     number: "05",
-    name: "Pickleball Courts — Neighboring-Town Example",
-    shortName: "Pickleball Example",
-    category: "Comparison case / Greenwich, CT",
-    status: "Example only — completed elsewhere",
-    statusTone: "complete",
-    lastVerified: "July 2026",
-    verifiedBy: "Town of Greenwich bid and Parks & Recreation records",
+    name: "North Castle Pickleball Courts",
+    shortName: "Pickleball Courts",
+    category: "North Castle concept + Greenwich comparison",
+    status: "Site-options evaluation / no approved project yet",
+    statusTone: "planning",
+    lastVerified: "August 2026",
+    verifiedBy: "North Castle Supervisor’s May 2026 update and official Greenwich records",
     heroImage: "assets/images/greenwich-pickleball-open.jpg",
     heroAlt: "New dedicated pickleball courts at the Cohen Eastern Greenwich Civic Center",
     comparisonNote: {
-      title: "This is not a North Castle project record.",
+      title: "North Castle first; Greenwich only as a process example.",
       text:
-        "North Castle’s current pickleball proposal, cost, approval and funding data have not yet been provided to STEWARD. Greenwich is shown only as a nearby example of how a recreation project can move from an appropriation and bid process to construction and public use."
+        "North Castle is evaluating whether and where dedicated outdoor courts could be developed. No selected site, approved scope, budget, funding plan or bid was found in the linked Town records. The completed Greenwich project appears below only to illustrate later steps that North Castle has not yet reached."
     },
     summary:
-      "A comparison case showing how the Town of Greenwich developed four dedicated, lighted pickleball courts at the Cohen Eastern Greenwich Civic Center after early bids exceeded available funding.",
-    location: "Cohen Eastern Greenwich Civic Center, Old Greenwich, Connecticut",
-    department: "Greenwich Parks & Recreation",
-    costLabel: "Reported capital budget",
-    costValue: "$625,000",
+      "North Castle residents have expressed support for dedicated outdoor pickleball courts. The Town reported that it was working with the Town Engineer to evaluate possible locations; the official records currently linked here do not identify a selected North Castle site or approved construction plan.",
+    location: "North Castle — site not yet selected in the located official records",
+    department: "North Castle Parks & Recreation / Town Engineer / Town Board",
+    costLabel: "North Castle project cost",
+    costValue: "Not yet available",
     costNote:
-      "Comparison-case figure: $375,000 in earlier capital funding plus a reported $250,000 FY2026 addition. This is not a North Castle estimate or tax calculation.",
+      "No authoritative North Castle estimate, appropriation, funding plan or bid was found. Greenwich’s reported $625,000 capital budget is displayed only in the comparison portion below.",
     process: [
       {
-        date: "2022–2024",
-        title: "Need identified and initial funding assembled",
+        date: "April 7, 2026",
+        title: "Pickleball listed as active recreation-board business",
         description:
-          "Greenwich planned four dedicated courts and accumulated $375,000 across two capital budget requests.",
+          "The Parks and Recreation Advisory Board agenda listed “Pickleball Courts in North Castle” under old business and project updates.",
         state: "complete"
       },
       {
-        date: "September–October 2024",
-        title: "First competitive bid",
+        date: "April 22, 2026",
+        title: "Residents supported finding a location",
         description:
-          "RFB 7881 was published. Three responses reportedly exceeded the capital funding then available, so the project did not proceed under that solicitation.",
+          "The Supervisor later reported that many residents attended the Town Board meeting in support of finding a location for pickleball courts.",
         state: "complete"
       },
       {
-        date: "FY2026 budget process",
-        title: "Additional funding requested",
+        date: "May 2026",
+        title: "Possible locations under evaluation",
         description:
-          "Parks & Recreation sought an additional $250,000 so the project could be rebid with adequate funding.",
+          "The Town reported that it was working with the Town Engineer to evaluate options and scheduled a May 27 work session to discuss possible locations.",
         state: "complete"
       },
       {
-        date: "July–September 2025",
-        title: "Project rebid and construction started",
+        date: "Current verified stage",
+        title: "Concept and site-options stage",
         description:
-          "RFB 7902 closed July 23, and the Town announced that construction of four post-tension concrete courts with lighting would begin September 15.",
-        state: "complete"
+          "STEWARD has not located an official selected site, design, environmental review, appropriation, funding decision, bid solicitation or construction award.",
+        state: "unknown"
       },
       {
-        date: "June 24, 2026",
-        title: "Courts opened",
+        date: "Neighboring-town example",
+        title: "Greenwich advanced from funding to rebid, construction and opening",
         description:
-          "Greenwich announced the four dedicated courts were open while the contractor completed final punch-list items.",
+          "Greenwich assembled capital funding, rejected an unaffordable first bid round, added funding, rebid the work, built four lighted courts and opened them in June 2026. These are not North Castle milestones.",
         state: "complete"
       }
     ],
-    costBreakdown: [
-      ["Earlier capital funding", 375000],
-      ["Additional FY2026 funding reported", 250000]
-    ],
-    funding: [
-      ["Municipal capital appropriations", 625000, "Reported total budget"]
-    ],
+    costBreakdown: [],
+    funding: [],
     impact: {
       type: "none",
       available: false,
-      heading: "No North Castle resident-impact calculation",
+      heading: "No North Castle cost or resident-impact calculation",
       explanation:
-        "This comparison explains a municipal approval, budgeting and bidding pathway. Greenwich’s figures cannot be used to estimate a North Castle household tax impact.",
+        "North Castle has not reached a documented cost-and-funding stage in the records linked here. Greenwich’s figures cannot be used to estimate a North Castle household tax impact.",
       benchmark: "North Castle project data must be obtained before any local calculation is shown",
       attribution: "Comparison information comes from Greenwich public records and clearly labeled reporting on its budget process."
     },
@@ -557,6 +552,18 @@ window.STEWARD_PROJECTS = {
       }
     ],
     sources: [
+      {
+        label: "North Castle status",
+        title: "Supervisor’s Update — May 2026",
+        href: "https://www.northcastleny.com/1100/Supervisors-Updates-May-2026",
+        note: "Official account of resident support, Town Engineer evaluation and the locations work session."
+      },
+      {
+        label: "North Castle agenda",
+        title: "Parks & Recreation Advisory Board — April 7, 2026",
+        href: "https://www.northcastleny.com/AgendaCenter/ViewFile/Agenda/_04072026-1021",
+        note: "Lists Pickleball Courts in North Castle under project updates."
+      },
       {
         label: "First bid",
         title: "Greenwich RFB 7881",
@@ -589,9 +596,79 @@ window.STEWARD_PROJECTS = {
       }
     ],
     cautions: [
-      "All dollar figures and milestones in this tab belong to Greenwich, Connecticut—not North Castle.",
-      "The $625,000 figure is a reported municipal capital budget, not a verified North Castle estimate or a tax-impact calculation.",
-      "A future North Castle pickleball entry must replace this example with local scope, approvals, bids, funding and resident-impact records."
+      "No North Castle site is presented as selected because the located official records only document evaluation of possible locations.",
+      "No North Castle cost, funding or household-impact figure is currently displayed.",
+      "The $625,000 Greenwich figure and all Greenwich milestones are comparison information—not North Castle data."
     ]
+  },
+
+  clove: {
+    id: "clove", number: "06", name: "Clove Road Ballfield Renovations", shortName: "Clove Road Fields",
+    category: "Parks and recreation", status: "Construction complete / opening pending", statusTone: "complete",
+    lastVerified: "August 2026", verifiedBy: "North Castle Parks records and Supervisor’s May 2026 update",
+    heroImage: "", heroAlt: "Clove Road Park project image not yet added",
+    summary: "Renovation of two ballfields at Clove Road Park in North White Plains. The Town reported construction complete in May 2026 and said an official opening and ribbon-cutting update would follow.",
+    location: "Clove Road Park, North Broadway and Clove Road, North White Plains", department: "Parks & Recreation",
+    costLabel: "Verified project cost", costValue: "Not yet available", costNote: "The official status sources located for STEWARD do not provide a complete cost, award or funding breakdown.",
+    process: [
+      {date:"January–February 2026",title:"Construction paused for winter",description:"Recreation-board minutes reported that the same contractor working on the IBM turf project would return after snow melted.",state:"complete"},
+      {date:"May 2026",title:"Field work completed",description:"The Supervisor reported that work was complete on two newly renovated ballfields.",state:"complete"},
+      {date:"Next public milestone",title:"Opening and ribbon cutting",description:"The Town said an official opening and ribbon-cutting announcement would follow.",state:"future"},
+      {date:"Scout verification task",title:"Complete the financial record",description:"Locate the bid, award resolution, contractor, final scope, funding sources and actual expenditures.",state:"future"}
+    ],
+    costBreakdown: [], funding: [],
+    impact:{type:"none",available:false,heading:"Resident impact not documented",explanation:"The linked official status records do not include a project-specific property-tax analysis.",benchmark:"No household estimate displayed",attribution:"Project status is based on official North Castle records."},
+    gallery: [],
+    sources:[
+      {label:"Completion",title:"Supervisor’s Update — May 2026",href:"https://www.northcastleny.com/1100/Supervisors-Updates-May-2026",note:"Reports work complete and an opening announcement forthcoming."},
+      {label:"Winter status",title:"Parks & Recreation minutes — February 3, 2026",href:"https://www.northcastleny.com/AgendaCenter/ViewFile/Minutes/_02032026-1015",note:"Documents the contractor’s planned return after winter."},
+      {label:"Location",title:"North Castle Parks & Facilities",href:"https://www.northcastleny.com/194/Parks-Facilities",note:"Official location and park description."}
+    ],
+    cautions:["Construction status is documented, but the complete bid, award, funding and final-cost records still need to be linked."]
+  },
+
+  wd4well: {
+    id: "wd4well", number: "07", name: "Water District No. 4 — Well SD2-1 Treatment Building", shortName: "WD4 Well SD2-1",
+    category: "District water infrastructure", status: "Bid solicitation documented", statusTone: "active",
+    lastVerified: "August 2026", verifiedBy: "Official North Castle bid posting",
+    heroImage: "", heroAlt: "Water District No. 4 well project image not yet added",
+    summary: "Site work for a prefabricated water-treatment building and the startup and testing needed to incorporate a new bedrock water-supply well into Water District No. 4.",
+    location: "Water District No. 4 property, 15 Business Park Drive, Armonk", department: "Sewer & Water / Water District No. 4",
+    costLabel: "Awarded project cost", costValue: "Not yet verified", costNote: "The official posting documents the competitive bid stage, but the page reviewed for STEWARD does not establish the awarded amount or final funding plan.",
+    process:[
+      {date:"March 20, 2025",title:"Bid advertised",description:"The Town published the site-work solicitation and made plans and specifications available.",state:"complete"},
+      {date:"April 1, 2025",title:"Pre-bid meeting",description:"A project pre-bid meeting was scheduled at the site.",state:"complete"},
+      {date:"April 17, 2025",title:"Bids due",description:"Sealed bids were due at Town Hall for public opening.",state:"complete"},
+      {date:"Verification needed",title:"Confirm award and construction status",description:"Link the bid tabulation, Board award, contractor, funding, construction milestones and actual expenditures.",state:"future"}
+    ],
+    costBreakdown:[], funding:[],
+    impact:{type:"none",available:false,heading:"District impact not yet documented",explanation:"No verified district-assessment or household-impact calculation is shown in the linked bid posting.",benchmark:"No household estimate displayed",attribution:"Scope and bid dates come from the official Town solicitation."},
+    gallery:[],
+    sources:[{label:"Official bid",title:"Water Supply & Treatment Building — Well SD2-1",href:"https://northcastleny.com/bids.aspx?bidID=12",note:"Town posting with project scope, site, schedule and bid documents."}],
+    cautions:["A bid solicitation is not the same as a contract award.","The award, funding and current construction status require additional Town records."]
+  },
+
+  quarry: {
+    id: "quarry", number: "08", name: "Quarry Park Improvements", shortName: "Quarry Park",
+    category: "Parks and recreation", status: "Planning and neighborhood engagement", statusTone: "planning",
+    lastVerified: "August 2026", verifiedBy: "North Castle Parks & Recreation minutes",
+    heroImage: "", heroAlt: "Quarry Park project image not yet added",
+    summary: "A proposed improvement effort for the small Quarry Park in North White Plains, including cleanup, a formal survey and park-boundary records, and a possible basketball area.",
+    location: "Quarry Park, off Old Orchard Street, Quarry Heights", department: "Parks & Recreation",
+    costLabel: "Project cost", costValue: "Not yet available", costNote: "The minutes describe a developing concept, not an approved construction budget or award.",
+    process:[
+      {date:"January 2026",title:"Basketball concept and resident concerns",description:"Minutes describe a proposed half-court basketball pad and neighborhood concerns about potential activity and hours.",state:"complete"},
+      {date:"February 2026",title:"Survey and boundaries added to planning",description:"The Town planned cleanup, an official survey, accurate park-boundary records and a basketball area.",state:"complete"},
+      {date:"Planned next step",title:"Neighborhood-informed project development",description:"The record indicates continued engagement and anticipated work, but STEWARD has not located a final design, appropriation, bid or award.",state:"future"}
+    ],
+    costBreakdown:[], funding:[],
+    impact:{type:"none",available:false,heading:"No financial impact analysis",explanation:"The project is still described at a planning stage, without an authoritative cost or funding plan in the linked records.",benchmark:"No household estimate displayed",attribution:"Status is based on official advisory-board minutes."},
+    gallery:[],
+    sources:[
+      {label:"Current plan",title:"Parks & Recreation minutes — February 3, 2026",href:"https://www.northcastleny.com/AgendaCenter/ViewFile/Minutes/_02032026-1015",note:"Cleanup, survey, boundaries and proposed basketball area."},
+      {label:"Earlier discussion",title:"Parks & Recreation minutes — January 6, 2026",href:"https://www.northcastleny.com/AgendaCenter/ViewFile/Minutes/_01062026-1016",note:"Half-court concept, resident concerns and proposed outreach."},
+      {label:"Location",title:"North Castle Parks & Facilities",href:"https://www.northcastleny.com/194/Parks-Facilities",note:"Official park location and current amenities."}
+    ],
+    cautions:["The basketball area is a proposal, not a documented approved construction award.","No verified cost, funding or resident-impact calculation is available in the linked records."]
   }
 };
