@@ -27,7 +27,7 @@ Then visit `http://localhost:8000`.
 - Town Pool Renovation
 - North Castle Pickleball Courts — concept/site-options stage, followed by a clearly labeled Greenwich comparison
 - Clove Road Ballfield Renovations
-- Water District No. 4 — Well SD2-1 Treatment Building
+- Water District No. 4 — Well SD2-1 Treatment Building (construction underway; awarded contracts and internal financing documented)
 - Quarry Park Improvements
 
 ## Project standard
