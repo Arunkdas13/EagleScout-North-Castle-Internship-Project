@@ -2,22 +2,28 @@ window.STEWARD_PROJECTS = {
   bedford: {
     id: "bedford",
     number: "01",
-    name: "Bedford Road Redevelopment",
-    shortName: "Bedford Road",
-    category: "Town-wide civic project",
+    name: "Town Hall Relocation",
+    shortName: "Town Hall Relocation",
+    category: "Town facilities proposal",
     status: "Concept proposal",
     statusTone: "planning",
     lastVerified: "July 2026",
     verifiedBy: "Source documents and Finance Department figures",
-    heroImage: "assets/images/bedford-plan.jpg",
-    heroAlt: "Existing Bedford Road municipal facilities shown in the Fareri RFEI response",
+    heroImage: "assets/images/town-hall-civic-center-aerial.jpg",
+    heroAlt: "Aerial concept for the proposed Town Hall and Central Commons plan",
     summary:
-      "A proposed redevelopment of Town facilities and public spaces, including Town Hall, police and court facilities, highway and school transportation operations, recreation, and Bedford Road improvements.",
+      "A proposed relocation and consolidation of Town operations within a broader civic-campus plan, including Town Hall, police and court facilities, highway and school transportation operations, recreation, public space, and Bedford Road improvements.",
     location: "Bedford Road, Main Street and Business Park Drive",
     department: "Town-wide / multiple departments",
     costLabel: "Proposed total cost",
     costValue: "$70 million",
     costNote: "Conceptual estimate in the Fareri RFEI response—not an awarded construction cost.",
+    story: {
+      context: "The proposal is larger than a building move. It would consolidate Town functions, reorganize police, court, highway and transportation facilities, and create a connected civic campus with recreation, public landscape and safer movement along Bedford Road.",
+      people: "Residents seeking Town services, Town employees, police and court users, highway and school-transportation staff, recreation users, nearby property owners, pedestrians and drivers would all experience different parts of the proposed change.",
+      discussion: "The submitted concept emphasizes reuse of existing buildings, walkable connections, compact development, native and adaptive planting, stormwater management, habitat restoration and energy-efficient systems. These are proposal commitments, not final Town-approved specifications.",
+      next: "The Town would need to select a direction, define the public process, complete technical and environmental review, establish an approved scope and financing plan, and competitively procure the work before construction could begin."
+    },
     process: [
       {
         date: "November 10, 2025",
@@ -86,37 +92,39 @@ window.STEWARD_PROJECTS = {
         "Calculated from financial figures attributed in the RFEI response to Abbas Sura, Town of North Castle Director of Finance."
     },
     gallery: [
-      {
-        image: "assets/images/bedford-plan.jpg",
-        alt: "Photographs of existing Bedford Road and highway facilities",
-        caption: "Existing municipal facilities included in the redevelopment concept.",
-        source: "Fareri RFEI response"
-      },
-      {
-        image: "assets/images/bedford-cover.jpg",
-        alt: "Cover of the Bedford Road redevelopment RFEI response",
-        caption: "Original redevelopment submission.",
-        source: "Fareri RFEI response"
-      }
+      {image:"assets/images/town-hall-existing-facilities.jpg",alt:"Photographs of existing Town Hall and highway facilities",caption:"Existing municipal facilities considered in the relocation concept.",source:"Fareri RFEI response, document page 10 / PDF page 16",href:"assets/documents/bedford-road-rfei.pdf#page=16"},
+      {image:"assets/images/town-hall-civic-center-aerial.jpg",alt:"Aerial rendering of the proposed Armonk Civic Center and Central Commons",caption:"Overall civic-campus concept shown from above.",source:"Fareri RFEI response, document page 14 / PDF page 20",href:"assets/documents/bedford-road-rfei.pdf#page=20"},
+      {image:"assets/images/town-hall-master-plan.jpg",alt:"Site plan for the proposed civic center and central commons",caption:"Master plan locating civic buildings, recreation and open space.",source:"Fareri RFEI response, document page 15 / PDF page 21",href:"assets/documents/bedford-road-rfei.pdf#page=21"},
+      {image:"assets/images/town-hall-pedestrian-connections.jpg",alt:"Proposed walking trails and pedestrian connections",caption:"Pedestrian network connecting the civic campus and public spaces.",source:"Fareri RFEI response, document page 17 / PDF page 23",href:"assets/documents/bedford-road-rfei.pdf#page=23"},
+      {image:"assets/images/town-hall-memorial-civic-core.jpg",alt:"Concept for Memorial Mall and civic core",caption:"Memorial Mall and civic-core landscape concept.",source:"Fareri RFEI response, document page 18 / PDF page 24",href:"assets/documents/bedford-road-rfei.pdf#page=24"},
+      {image:"assets/images/town-hall-recreation-fields.jpg",alt:"Concept imagery for sports fields and recreation",caption:"Proposed recreation program, including baseball, soccer and pickleball.",source:"Fareri RFEI response, document page 19 / PDF page 25",href:"assets/documents/bedford-road-rfei.pdf#page=25"},
+      {image:"assets/images/town-hall-vehicle-circulation.jpg",alt:"Vehicle circulation plan for the proposed civic campus",caption:"Proposed entrances, internal roads and parking circulation.",source:"Fareri RFEI response, document page 22 / PDF page 28",href:"assets/documents/bedford-road-rfei.pdf#page=28"},
+      {image:"assets/images/town-hall-concept-rendering.jpg",alt:"Architectural rendering of the proposed Town Hall",caption:"Conceptual Town Hall exterior; not a final approved design.",source:"Fareri RFEI response, document page 29 / PDF page 35",href:"assets/documents/bedford-road-rfei.pdf#page=35"}
     ],
     sources: [
       {
         label: "Project cost",
-        title: "Fareri RFEI response — pages 43–44",
+        title: "Fareri RFEI response — document pages 43–44",
         href: "assets/documents/bedford-road-rfei.pdf#page=49",
-        note: "Itemized $70 million proposed project cost."
+        note: "Itemized $70 million proposed project cost (PDF pages 49–50)."
       },
       {
         label: "Funding",
-        title: "Fareri RFEI response — page 45",
+        title: "Fareri RFEI response — document page 45",
         href: "assets/documents/bedford-road-rfei.pdf#page=51",
-        note: "$30 million proposed sources and $40 million bond."
+        note: "$30 million proposed sources and $40 million bond (PDF page 51)."
       },
       {
         label: "Resident impact",
-        title: "Fareri RFEI response — page 46",
+        title: "Fareri RFEI response — document page 46",
         href: "assets/documents/bedford-road-rfei.pdf#page=52",
-        note: "Tax-rate and median-household calculation."
+        note: "Tax-rate and median-household calculation (PDF page 52)."
+      },
+      {
+        label: "Sustainability",
+        title: "Fareri RFEI response — document pages 37–39",
+        href: "assets/documents/bedford-road-rfei.pdf#page=43",
+        note: "Proposed reuse, landscape, stormwater, habitat and energy measures (PDF pages 43–45)."
       }
     ],
     cautions: [
@@ -212,25 +220,20 @@ window.STEWARD_PROJECTS = {
         "Calculated from estimated inputs in the October 2025 Town presentation. The Finance Department later clarified that the underlying cost figures came from informal vendor discussions, not bid documents."
     },
     gallery: [
-      {
-        image: "assets/images/wd9-map.jpg",
-        alt: "Proposed Water District No. 9 extension presentation divider",
-        caption: "Proposed district extension.",
-        source: "Town informational presentation"
-      },
-      {
-        image: "assets/images/wd9-system.jpg",
-        alt: "Water District No. 9 distribution-system data table",
-        caption: "Existing and proposed water-main lengths and hydrants.",
-        source: "Town informational presentation"
-      }
+      {image:"assets/images/wd9-extension-area.jpg",alt:"Description of the proposed WD9 extension service area",caption:"Who the proposed extension would serve.",source:"Town informational presentation, PDF page 10",href:"assets/documents/wd9-extension-slide-deck.pdf#page=10"},
+      {image:"assets/images/wd9-distribution-map.jpg",alt:"Map of the Water District No. 9 distribution area",caption:"Existing and proposed WD9 distribution area.",source:"Town informational presentation, PDF page 14",href:"assets/documents/wd9-extension-slide-deck.pdf#page=14"},
+      {image:"assets/images/wd9-next-steps.jpg",alt:"Five planned steps for the WD9 extension",caption:"Town’s stated sequence from public hearing through construction management.",source:"Town informational presentation, PDF page 17",href:"assets/documents/wd9-extension-slide-deck.pdf#page=17"},
+      {image:"assets/images/wd9-cost-estimate.jpg",alt:"Water District No. 9 proposed extension cost explanation",caption:"Basis and limitations of the approximately $4.6 million estimate.",source:"Town informational presentation, PDF page 19",href:"assets/documents/wd9-extension-slide-deck.pdf#page=19"},
+      {image:"assets/images/wd9-no-grant-scenario.jpg",alt:"WD9 no-grant financing scenario",caption:"Modeled household costs with no grant funding.",source:"Town informational presentation, PDF page 21",href:"assets/documents/wd9-extension-slide-deck.pdf#page=21"},
+      {image:"assets/images/wd9-fifty-percent-grant.jpg",alt:"WD9 fifty-percent grant financing scenario",caption:"Modeled household costs with a 50% grant.",source:"Town informational presentation, PDF page 22",href:"assets/documents/wd9-extension-slide-deck.pdf#page=22"},
+      {image:"assets/images/wd9-seventy-five-percent-grant.jpg",alt:"WD9 seventy-five-percent grant financing scenario",caption:"Modeled household costs with a 75% grant.",source:"Town informational presentation, PDF page 23",href:"assets/documents/wd9-extension-slide-deck.pdf#page=23"}
     ],
     sources: [
       {
         label: "Scope and process",
         title: "WD9 informational slide deck",
-        href: "assets/documents/wd9-extension-slide-deck.pdf#page=9",
-        note: "Extension description and planned project steps."
+        href: "assets/documents/wd9-extension-slide-deck.pdf#page=10",
+        note: "Service area on PDF pages 10–14 and planned process on pages 16–17."
       },
       {
         label: "Cost and inputs",
@@ -351,12 +354,6 @@ window.STEWARD_PROJECTS = {
         title: "Armonk Soccer Club — Field Information",
         href: "https://www.armonksoccerclub.org/field-information",
         note: "Local field names, directions and an aerial Community Park image."
-      },
-      {
-        label: "Related facility record",
-        title: "Community Park athletic-facility bid",
-        href: "https://www.bidnetdirect.com/new-york/townofnorthcastle/solicitations/OPERATION-OF-THE-ATHLETIC-FACILITIES-AT-COMMUNITY-PARK-Bid-Opening-NOW-June-27/0000349442",
-        note: "A separate 2024 operating solicitation documenting the park address and existing enclosed athletic facilities."
       }
     ],
     cautions: [
@@ -442,19 +439,15 @@ window.STEWARD_PROJECTS = {
       attribution: "Funding expectation and tax-analysis status provided by Abbas Sura, Director of Finance."
     },
     gallery: [
-      {
-        image: "assets/images/pool-bid.jpg",
-        alt: "Pool renovation bid-comparison summary",
-        caption: "Bid-comparison source used to distinguish the base bid from the alternate.",
-        source: "Town bid materials"
-      }
+      {image:"assets/images/pool-bid-summary-page-1.jpg",alt:"First page of the pool renovation bid comparison",caption:"Contractor bids and first portion of the itemized comparison.",source:"Town bid-comparison summary, PDF page 1",href:"assets/documents/pool-bid-comparison.pdf#page=1"},
+      {image:"assets/images/pool-bid-summary-page-2.jpg",alt:"Second page of the pool renovation bid comparison",caption:"Remaining bid items, allowances and recommendation summary.",source:"Town bid-comparison summary, PDF page 2",href:"assets/documents/pool-bid-comparison.pdf#page=2"}
     ],
     sources: [
       {
         label: "Bids",
         title: "Pool project bid-comparison summary",
-        href: "assets/documents/pool-bid-comparison.pdf",
-        note: "Contractor bids, base-bid recommendation and alternate."
+        href: "assets/documents/pool-bid-comparison.pdf#page=1",
+        note: "Contractor bids, base-bid recommendation and alternate across PDF pages 1–2."
       }
     ],
     cautions: [
@@ -660,13 +653,18 @@ window.STEWARD_PROJECTS = {
       ["Internal loan from North Castle General Fund to WD4",2700000,"Authorized amount recorded in project timeline"]
     ],
     impact:{type:"none",available:false,heading:"District repayment impact still requires confirmation",explanation:"The records establish an internal General Fund loan, but they do not provide a final customer-allocation method. The timeline and funding memo describe approximately $2.7 million, while a planning workbook models $3 million at 4.25% over 30 years. STEWARD will not treat that modeled schedule as the adopted resident impact without Town confirmation.",benchmark:"No household estimate displayed",attribution:"Award and financing information provided by North Castle Water & Sewer Operations and Finance in August 2026."},
-    gallery:[],
+    gallery:[
+      {image:"assets/images/wd4-treatment-building-award.jpg",alt:"Town memorandum summarizing treatment-building bids",caption:"Two treatment-building bids and the recommended $1,423,158 award.",source:"North Castle Water & Sewer memorandum, PDF page 1",href:"assets/documents/wd4-treatment-building-bid-approval.pdf#page=1"},
+      {image:"assets/images/wd4-first-site-work-bids.jpg",alt:"Town memorandum listing the first site-work bids",caption:"Initial site-work bids that the Town rejected before rebidding.",source:"North Castle Water & Sewer memorandum, PDF page 1",href:"assets/documents/wd4-site-work-first-bid-rejection.pdf#page=1"},
+      {image:"assets/images/wd4-site-work-rebid.jpg",alt:"Town memorandum listing the site-work rebids",caption:"Seven rebids and the $1,276,485 Pepitto recommendation.",source:"North Castle Water & Sewer memorandum, PDF page 1",href:"assets/documents/wd4-site-work-rebid-award.pdf#page=1"},
+      {image:"assets/images/wd4-internal-loan.jpg",alt:"Town memorandum explaining the WD4 internal loan",caption:"Combined awards and the recommended internal-financing approach.",source:"North Castle Water & Sewer memorandum, PDF page 1",href:"assets/documents/wd4-internal-loan-memorandum.pdf#page=1"}
+    ],
     sources:[
       {label:"Project history",title:"WD4 Well Project Timeline",href:"assets/documents/wd4-well-project-timeline.xlsx",note:"Town working timeline covering 2016 through ongoing construction in August 2026."},
-      {label:"Building award",title:"Treatment Building Bid Review and Approval",href:"assets/documents/wd4-treatment-building-bid-approval.pdf",note:"January 2025 memorandum and WSP recommendation documenting the $1,423,158 award."},
-      {label:"First site-work bid",title:"Site-Work Bid Rejection and Rebid Recommendation",href:"assets/documents/wd4-site-work-first-bid-rejection.pdf",note:"Documents the six initial bids and why the specifications were revised and rebid."},
-      {label:"Site-work award",title:"Site-Work Rebid and Award Recommendation",href:"assets/documents/wd4-site-work-rebid-award.pdf",note:"Documents seven rebids, the $1,276,485 Pepitto award and $167,515 reduction from the first low bid."},
-      {label:"Financing",title:"WD4 Internal-Loan Memorandum",href:"assets/documents/wd4-internal-loan-memorandum.pdf",note:"Explains the approximately $2.7 million internal-loan recommendation and avoided outside borrowing expenses."},
+      {label:"Building award",title:"Treatment Building Bid Review and Approval",href:"assets/documents/wd4-treatment-building-bid-approval.pdf#page=1",note:"Bid summary and award request on PDF page 1; WSP review on page 2."},
+      {label:"First site-work bid",title:"Site-Work Bid Rejection and Rebid Recommendation",href:"assets/documents/wd4-site-work-first-bid-rejection.pdf#page=1",note:"Six initial bids on PDF page 1; WSP’s rebid reasons on pages 2–3."},
+      {label:"Site-work award",title:"Site-Work Rebid and Award Recommendation",href:"assets/documents/wd4-site-work-rebid-award.pdf#page=1",note:"Seven rebids and savings on PDF page 1; award recommendation and reference review on pages 2–4."},
+      {label:"Financing",title:"WD4 Internal-Loan Memorandum",href:"assets/documents/wd4-internal-loan-memorandum.pdf#page=1",note:"Combined awards and avoided external-borrowing costs on page 1; financing rationale on page 2."},
       {label:"Planning model",title:"WD4 Internal-Loan Planning Workbook",href:"assets/documents/wd4-internal-loan-model.xlsx",note:"Models $3 million at 4.25% for 30 years; STEWARD labels this as a model, not a confirmed final repayment plan."},
       {label:"Public bid page",title:"Water Supply & Treatment Building — Well SD2-1",href:"https://northcastleny.com/bids.aspx?bidID=12",note:"Official Town solicitation page."}
     ],
