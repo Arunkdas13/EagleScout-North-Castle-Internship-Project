@@ -4,6 +4,7 @@
   const projects = window.STEWARD_PROJECTS;
   const keys = Object.keys(projects);
   let activeKey = "bedford";
+  let activeView = "overview";
 
   const $ = (id) => document.getElementById(id);
   const currency = (value, digits = 0) =>
@@ -31,6 +32,7 @@
     document.querySelectorAll(".project-tab").forEach((button) => {
       button.addEventListener("click", () => {
         activeKey = button.dataset.project;
+        activeView = "overview";
         render();
         document.querySelector(".project-banner").scrollIntoView({ behavior: "smooth", block: "start" });
       });
@@ -41,8 +43,15 @@
     const visual = $("projectVisual");
     visual.className = `project-visual ${p.visualClass || ""}`;
     visual.style.backgroundImage = p.heroImage ? `url("${p.heroImage}")` : "";
-    visual.setAttribute("role", "img");
     visual.setAttribute("aria-label", p.heroAlt || `${p.name} project visual`);
+    const heroSource = p.heroImage && (p.heroHref || (p.gallery[0] && p.gallery[0].href) || (p.sources[0] && p.sources[0].href));
+    if (heroSource) {
+      visual.href = heroSource;
+      visual.removeAttribute("aria-disabled");
+    } else {
+      visual.removeAttribute("href");
+      visual.setAttribute("aria-disabled", "true");
+    }
 
     $("projectStatus").textContent = p.status;
     $("projectCategory").textContent = p.category;
@@ -66,8 +75,8 @@
 
   function renderStory(p) {
     const section = $("projectStory");
-    if (!p.story) { section.hidden = true; return; }
-    section.hidden = false;
+    section.dataset.available = p.story ? "true" : "false";
+    if (!p.story) return;
     $("storyContext").textContent = p.story.context;
     $("storyPeople").textContent = p.story.people;
     $("storyDiscussion").textContent = p.story.discussion;
@@ -235,24 +244,30 @@
       return;
     }
     $("galleryGrid").innerHTML = p.gallery.map((item) => `
-      <figure>
-        <img src="${item.image}" alt="${item.alt}" loading="lazy">
-        <figcaption><strong>${item.caption}</strong>Source: ${item.source}</figcaption>
+      <figure class="${item.href && item.href.includes('.pdf') ? 'document-view' : ''}">
+        ${item.href
+          ? `<a class="gallery-link" href="${item.href}" target="_blank" rel="noreferrer" aria-label="Open source for ${item.caption}"><img src="${item.image}" alt="${item.alt}" loading="lazy"></a>`
+          : `<img src="${item.image}" alt="${item.alt}" loading="lazy">`}
+        <figcaption>
+          <strong>${item.caption}</strong>
+          <span>Source: ${item.source}</span>
+          ${item.href ? `<a href="${item.href}" target="_blank" rel="noreferrer">View exact source page <span aria-hidden="true">↗</span></a>` : ""}
+        </figcaption>
       </figure>`).join("");
   }
 
   function renderComparison(p) {
     const section = $("comparisonCase");
     const c = p.comparisonCase;
-    if (!c) { section.hidden = true; return; }
-    section.hidden = false;
+    section.dataset.available = c ? "true" : "false";
+    if (!c) return;
     $("comparisonTitle").textContent = c.title;
     $("comparisonSummary").textContent = c.summary;
     $("comparisonTimeline").innerHTML = c.process.map((step) => `
       <li class="${step.state}"><time>${step.date}</time><h3>${step.title}</h3><p>${step.description}</p></li>`).join("");
     $("comparisonFinance").innerHTML = c.finance.map((row) => `<div class="comparison-figure"><span>${row[0]}</span><strong>${row[1]}</strong><small>${row[2]}</small></div>`).join("");
     $("comparisonLessons").innerHTML = c.lessons.map((x) => `<li>${x}</li>`).join("");
-    $("comparisonGallery").innerHTML = c.gallery.map((item) => `<figure><img src="${item.image}" alt="${item.alt}"><figcaption><strong>${item.caption}</strong>${item.source}</figcaption></figure>`).join("");
+    $("comparisonGallery").innerHTML = c.gallery.map((item) => `<figure>${item.href ? `<a href="${item.href}" target="_blank" rel="noreferrer"><img src="${item.image}" alt="${item.alt}"></a>` : `<img src="${item.image}" alt="${item.alt}">`}<figcaption><strong>${item.caption}</strong>${item.source}${item.href ? `<a href="${item.href}" target="_blank" rel="noreferrer">Open exact source ↗</a>` : ""}</figcaption></figure>`).join("");
     $("comparisonSources").innerHTML = c.sources.map((s) => `<a href="${s.href}" target="_blank" rel="noopener"><strong>${s.title}</strong><span>${s.note}</span></a>`).join("");
   }
 
@@ -261,10 +276,32 @@
       <article class="source-card">
         <span>${source.label}</span>
         <h3>${source.title}</h3>
-        <p>${source.note}</p>
+        <p><strong>Used for:</strong> ${source.note}</p>
         <a href="${source.href}" target="_blank" rel="noreferrer">Open source <span aria-hidden="true">↗</span></a>
       </article>`).join("");
     $("cautionList").innerHTML = p.cautions.map((item) => `<li>${item}</li>`).join("");
+  }
+
+  function applyProjectView() {
+    document.querySelectorAll(".project-view").forEach((section) => {
+      const available = section.dataset.available !== "false";
+      section.hidden = section.dataset.view !== activeView || !available;
+    });
+    document.querySelectorAll("#detailNav button").forEach((button) => {
+      const selected = button.dataset.view === activeView;
+      button.classList.toggle("active", selected);
+      button.setAttribute("aria-selected", selected ? "true" : "false");
+    });
+  }
+
+  function bindDetailNav() {
+    document.querySelectorAll("#detailNav button").forEach((button) => {
+      button.addEventListener("click", () => {
+        activeView = button.dataset.view;
+        applyProjectView();
+        $("detailNav").scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
   }
 
   function render() {
@@ -278,8 +315,10 @@
     renderGallery(p);
     renderComparison(p);
     renderSources(p);
+    applyProjectView();
     document.title = `${p.shortName} | STEWARD`;
   }
 
+  bindDetailNav();
   render();
 })();
