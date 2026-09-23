@@ -23,12 +23,10 @@ Then visit `http://localhost:8000`.
 
 - Town Hall Relocation
 - Water District No. 9 Extension
-- IBM Community Park Turf Fields
+- IBM Turf Project — Community Park, Clove Road Fields and Quarry Park (approximately $4.4 million from Town fund balance)
 - Town Pool Renovation
 - North Castle Pickleball Courts — concept/site-options stage, followed by a clearly labeled Greenwich comparison
-- Clove Road Ballfield Renovations
 - Water District No. 4 — Well SD2-1 Treatment Building (construction underway; awarded contracts and internal financing documented)
-- Quarry Park Improvements
 
 ## Project standard
 
