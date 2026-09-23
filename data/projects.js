@@ -10,6 +10,7 @@ window.STEWARD_PROJECTS = {
     lastVerified: "July 2026",
     verifiedBy: "Source documents and Finance Department figures",
     heroImage: "assets/images/town-hall-civic-center-aerial.jpg",
+    heroHref: "assets/documents/bedford-road-rfei.pdf#page=20",
     heroAlt: "Aerial concept for the proposed Town Hall and Central Commons plan",
     summary:
       "A proposed relocation and consolidation of Town operations within a broader civic-campus plan, including Town Hall, police and court facilities, highway and school transportation operations, recreation, public space, and Bedford Road improvements.",
@@ -145,6 +146,7 @@ window.STEWARD_PROJECTS = {
     lastVerified: "July 2026",
     verifiedBy: "October 2025 informational presentation and Finance Department clarification",
     heroImage: "assets/images/wd9-map.jpg",
+    heroHref: "assets/documents/wd9-extension-slide-deck.pdf#page=10",
     heroAlt: "Water District No. 9 proposed extension presentation",
     summary:
       "A proposed extension of the Quarry Heights water system intended to provide public water and improved fire protection to additional properties.",
@@ -267,6 +269,7 @@ window.STEWARD_PROJECTS = {
     lastVerified: "September 23, 2026",
     verifiedBy: "Finance Department response and Town management clarification",
     heroImage: "assets/images/ibm-community-park.jpg",
+    heroHref: "https://www.armonksoccerclub.org/field-information",
     heroAlt: "Pre-project aerial field map of North Castle Community Park, commonly known as IBM Community Park",
     summary:
       "A coordinated recreation program covering three locations: artificial-turf conversion at IBM Community Park, renovation of two natural-grass ballfields at Clove Road Park, and neighborhood park improvements at Quarry Park, including a proposed basketball area.",
@@ -357,7 +360,8 @@ window.STEWARD_PROJECTS = {
         image: "assets/images/ibm-community-park.jpg",
         alt: "Pre-project aerial view identifying fields at North Castle Community Park",
         caption: "Pre-project aerial layout identifying IBM Fields 1–4 and the surrounding facilities.",
-        source: "Armonk Soccer Club field-information page"
+        source: "Armonk Soccer Club field-information page",
+        href: "https://www.armonksoccerclub.org/field-information"
       }
     ],
     sources: [
@@ -418,6 +422,7 @@ window.STEWARD_PROJECTS = {
     lastVerified: "July 2026",
     verifiedBy: "Bid comparison and Finance Department response",
     heroImage: "assets/images/pool-bid.jpg",
+    heroHref: "assets/documents/pool-bid-comparison.pdf#page=1",
     heroAlt: "North Castle pool renovation bid comparison summary",
     summary:
       "Renovation of the North Castle Pool & Tennis Club pool and pool deck, with bidding conducted in summer 2026.",
@@ -511,8 +516,8 @@ window.STEWARD_PROJECTS = {
     statusTone: "planning",
     lastVerified: "August 2026",
     verifiedBy: "North Castle Supervisor’s May 2026 update and official Greenwich records",
-    heroImage: "assets/images/greenwich-pickleball-open.jpg",
-    heroAlt: "New dedicated pickleball courts at the Cohen Eastern Greenwich Civic Center",
+    heroImage: "",
+    heroAlt: "North Castle Lombardi Park pickleball concept; official project visual not yet published in STEWARD",
     comparisonNote: {
       title: "North Castle first; Greenwich only as a process example.",
       text:
@@ -623,8 +628,8 @@ window.STEWARD_PROJECTS = {
         "Do not apply Greenwich’s dollar figures to North Castle without a local design and competitive pricing."
       ],
       gallery: [
-        {image:"assets/images/greenwich-pickleball-construction.jpg",alt:"Greenwich construction visual for four courts",caption:"Construction-phase court visual",source:"Town of Greenwich Parks & Recreation"},
-        {image:"assets/images/greenwich-pickleball-open.jpg",alt:"Completed Greenwich pickleball courts",caption:"Four completed courts opened in June 2026",source:"Town of Greenwich Parks & Recreation"}
+        {image:"assets/images/greenwich-pickleball-construction.jpg",alt:"Greenwich construction visual for four courts",caption:"Construction-phase court visual",source:"Town of Greenwich construction announcement",href:"https://www.greenwichct.gov/m/newsflash/Home/Detail/2983"},
+        {image:"assets/images/greenwich-pickleball-open.jpg",alt:"Completed Greenwich pickleball courts",caption:"Four completed courts opened in June 2026",source:"Town of Greenwich opening announcement",href:"https://www.greenwichct.gov/m/newsflash/Home/Detail/3315"}
       ],
       sources: [
         {title:"Greenwich RFB 7881",href:"https://www.greenwichct.gov/bids.aspx?bidID=507",note:"First solicitation"},
