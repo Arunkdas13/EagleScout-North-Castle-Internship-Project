@@ -259,23 +259,33 @@ window.STEWARD_PROJECTS = {
   turf: {
     id: "turf",
     number: "03",
-    name: "IBM Community Park Turf Fields",
-    shortName: "IBM Turf Fields",
+    name: "IBM Turf Project — Community Park, Clove Road and Quarry Park",
+    shortName: "IBM Turf Project",
     category: "Parks and recreation",
-    status: "Town cost update available",
+    status: "Combined project funding confirmed",
     statusTone: "active",
-    lastVerified: "July 2026",
-    verifiedBy: "Finance Department response; earlier process details from The Examiner News",
+    lastVerified: "September 23, 2026",
+    verifiedBy: "Finance Department response and Town management clarification",
     heroImage: "assets/images/ibm-community-park.jpg",
     heroAlt: "Pre-project aerial field map of North Castle Community Park, commonly known as IBM Community Park",
     summary:
-      "Conversion of Fields 1 and 2 at IBM Community Park from grass to artificial turf, with related drainage, netting, backstop, dugout and bench work. The Town coordinated this work with the separate renovation of two natural-grass ballfields at Clove Road Park.",
-    location: "IBM Community Park, Business Park Drive",
+      "A coordinated recreation program covering three locations: artificial-turf conversion at IBM Community Park, renovation of two natural-grass ballfields at Clove Road Park, and neighborhood park improvements at Quarry Park, including a proposed basketball area.",
+    location: "IBM Community Park; Clove Road Park; Quarry Park",
     department: "Parks & Recreation",
-    costLabel: "Approximate Town cost",
+    costLabel: "Approximate umbrella-project cost",
     costValue: "$4.4 million",
     costNote:
-      "Updated amount provided by Abbas Sura, Director of Finance. This supersedes the newspaper’s earlier $2.7 million planning estimate.",
+      "The approximately $4.4 million IBM Turf Project was funded from Town fund balance. Town management confirmed that the Clove Road Fields and Quarry Park work were built and funded under this project umbrella.",
+    story: {
+      context:
+        "The IBM Turf Project was broader than the two artificial-turf fields at Community Park. As clarified by Town management after STEWARD’s initial review, the project also included the Clove Road Fields renovation and the Quarry Park improvements. The three locations remain described separately below so residents can see what was built in each neighborhood.",
+      people:
+        "Community Park users gain more reliable multipurpose fields; Kensico Little League, youth teams and North White Plains families benefit from the restored Clove Road ballfields; and Quarry Heights families gain improvements to their small neighborhood park, including cleanup, boundary work and the proposed basketball area.",
+      discussion:
+        "The Town coordinated the work as one broader recreation investment. Public recreation minutes confirm that the same contractor handled the IBM and Clove Road field work. Quarry Park discussion focused on the basketball area, park boundaries, cleanup and concerns raised by nearby residents about hours and activity.",
+      next:
+        "The combined funding source is established. The remaining transparency step is to publish an optional location-by-location accounting of the approximately $4.4 million and the final contractor payments for Community Park, Clove Road and Quarry Park."
+    },
     process: [
       {
         date: "2023 community survey",
@@ -307,9 +317,16 @@ window.STEWARD_PROJECTS = {
       },
       {
         date: "2025–2026",
-        title: "Clove Road work coordinated alongside IBM",
+        title: "Clove Road Fields built under the IBM Turf Project",
         description:
-          "Town recreation records state that the same contractor handled the IBM turf work and the Clove Road ballfield renovations. Public records reviewed by STEWARD do not yet establish whether IBM project funds were formally transferred or whether the projects were funded under separate authorizations.",
+          "Two natural-grass baseball/softball fields at Clove Road Park were renovated under the broader IBM Turf Project. Town recreation records also state that the same contractor handled both locations.",
+        state: "complete"
+      },
+      {
+        date: "2025–2026",
+        title: "Quarry Park included under the IBM Turf Project",
+        description:
+          "The Quarry Park component covered neighborhood park work including cleanup, survey and boundary clarification, playground attention and a proposed small basketball area. Town management confirmed that this work was built under the IBM Turf Project.",
         state: "complete"
       },
       {
@@ -321,10 +338,10 @@ window.STEWARD_PROJECTS = {
       }
     ],
     costBreakdown: [
-      ["Approximate total Town cost", 4400000]
+      ["IBM Turf Project umbrella — all three locations", 4400000, "Approximate combined Town cost"]
     ],
     funding: [
-      ["Town fund balance", 4400000, "Finance Department update"]
+      ["Town fund balance — IBM Turf Project umbrella", 4400000, "Funds Community Park, Clove Road Fields and Quarry Park"]
     ],
     impact: {
       type: "none",
@@ -361,13 +378,32 @@ window.STEWARD_PROJECTS = {
         title: "Armonk Soccer Club — Field Information",
         href: "https://www.armonksoccerclub.org/field-information",
         note: "Local field names, directions and an aerial Community Park image."
+      },
+      {
+        label: "Clove Road coordination",
+        title: "Parks & Recreation Minutes — February 3, 2026",
+        href: "https://www.northcastleny.com/AgendaCenter/ViewFile/Minutes/_02032026-1015",
+        note: "Documents the shared contractor for the IBM and Clove Road work and describes the Quarry Park plan."
+      },
+      {
+        label: "Clove Road completion",
+        title: "Supervisor’s Update — May 2026",
+        href: "https://www.northcastleny.com/1100/Supervisors-Updates-May-2026",
+        note: "Reports completion of the two renovated Clove Road ballfields."
+      },
+      {
+        label: "Quarry Park discussion",
+        title: "Parks & Recreation Minutes — January 6, 2026",
+        href: "https://www.northcastleny.com/AgendaCenter/ViewFile/Minutes/_01062026-1016",
+        note: "Records the basketball-area concept, resident concerns and planned neighborhood outreach."
       }
     ],
     cautions: [
       "The $4.4 million amount is an approximate Finance Department update.",
       "The older $2.7 million newspaper figure was an early estimate and is not presented as the final cost.",
-      "Town records confirm that Clove Road and IBM used the same contractor, but the precise funding relationship between the two projects still requires Finance Department confirmation.",
-      "Bid, award and contractor records still require primary-source verification."
+      "Town management confirmed that the Clove Road Fields and Quarry Park work were built and funded under the IBM Turf Project.",
+      "The combined funding source is known; a location-by-location accounting of the approximately $4.4 million has not been supplied.",
+      "Bid, award and contractor-payment records still require primary-source verification."
     ]
   },
 
@@ -599,39 +635,8 @@ window.STEWARD_PROJECTS = {
     }
   },
 
-  clove: {
-    id: "clove", number: "06", name: "Clove Road Ballfield Renovations", shortName: "Clove Road Fields",
-    category: "Parks and recreation", status: "Construction complete / opening pending", statusTone: "complete",
-    lastVerified: "August 2026", verifiedBy: "North Castle Parks records and Supervisor’s May 2026 update",
-    heroImage: "", heroAlt: "Clove Road Park project image not yet added",
-    summary: "Renovation of two natural-grass baseball/softball fields in North White Plains, coordinated alongside the IBM Community Park turf project and performed by the same contractor. The Town reported the Clove Road work complete in May 2026.",
-    location: "Clove Road Park, North Broadway and Clove Road, North White Plains", department: "Parks & Recreation",
-    costLabel: "Separate verified cost", costValue: "Not yet available", costNote: "Town records confirm coordination with the IBM turf project and the same contractor, but the public records reviewed by STEWARD do not establish whether IBM funds paid for Clove Road or identify a separate final cost.",
-    story:{
-      context:"Clove Road Park contains a community center, multi-purpose field and Little League facilities. The project is about field quality and safe, dependable neighborhood recreation—not a new destination complex.",
-      people:"Kensico Little League, youth teams, families and North White Plains residents are the direct users. Better sod and field conditions increase playable time and reduce poor-surface disruptions; construction temporarily limited access.",
-      discussion:"Parks minutes tracked the contractor’s winter pause and stated that the same contractor was working on both Clove Road and the IBM turf project. The Supervisor’s April update reported sod installation underway, and the May update reported both renovated fields complete.",
-      next:"Confirm with the Finance Department whether Clove Road was paid from the IBM turf authorization or from a separate appropriation, then link the award, final scope and actual expenditures."
-    },
-    process: [
-      {date:"January–February 2026",title:"Construction paused for winter",description:"Recreation-board minutes reported that the same contractor working on the IBM turf project would return after snow melted.",state:"complete"},
-      {date:"May 2026",title:"Field work completed",description:"The Supervisor reported that work was complete on two newly renovated ballfields.",state:"complete"},
-      {date:"Next public milestone",title:"Opening and ribbon cutting",description:"The Town said an official opening and ribbon-cutting announcement would follow.",state:"future"},
-      {date:"Scout verification task",title:"Confirm the IBM funding relationship",description:"Obtain the appropriation and payment records needed to determine whether Clove Road used IBM turf funds or a separate authorization, then record the final cost.",state:"future"}
-    ],
-    costBreakdown: [], funding: [],
-    impact:{type:"none",available:false,heading:"Resident impact not documented",explanation:"The linked official status records do not include a project-specific property-tax analysis.",benchmark:"No household estimate displayed",attribution:"Project status is based on official North Castle records."},
-    gallery: [],
-    sources:[
-      {label:"Completion",title:"Supervisor’s Update — May 2026",href:"https://www.northcastleny.com/1100/Supervisors-Updates-May-2026",note:"Reports work complete and an opening announcement forthcoming."},
-      {label:"Winter status",title:"Parks & Recreation minutes — February 3, 2026",href:"https://www.northcastleny.com/AgendaCenter/ViewFile/Minutes/_02032026-1015",note:"Documents the contractor’s planned return after winter."},
-      {label:"Location",title:"North Castle Parks & Facilities",href:"https://www.northcastleny.com/194/Parks-Facilities",note:"Official location and park description."}
-    ],
-    cautions:["The same-contractor relationship is documented. A transfer or use of IBM turf funds for Clove Road has not yet been verified in the public records reviewed by STEWARD.","Construction status is documented, but the complete bid, award, funding and final-cost records still need to be linked."]
-  },
-
   wd4well: {
-    id: "wd4well", number: "07", name: "Water District No. 4 — Well SD2-1 Treatment Building", shortName: "WD4 Well SD2-1",
+    id: "wd4well", number: "06", name: "Water District No. 4 — Well SD2-1 Treatment Building", shortName: "WD4 Well SD2-1",
     category: "District water infrastructure", status: "Construction underway", statusTone: "active",
     lastVerified: "August 31, 2026", verifiedBy: "Records provided by North Castle Water & Sewer Operations and Finance",
     heroImage: "", heroAlt: "Water District No. 4 well project image not yet added",
@@ -677,35 +682,5 @@ window.STEWARD_PROJECTS = {
       {label:"Public bid page",title:"Water Supply & Treatment Building — Well SD2-1",href:"https://northcastleny.com/bids.aspx?bidID=12",note:"Official Town solicitation page."}
     ],
     cautions:["The $2,699,643 figure is the sum of awarded contracts, not final actual spending.","The approximately $2.7 million authorization and $3 million loan model do not fully reconcile; the final principal, term and interest rate require Town confirmation.","No district-account allocation or verified household-impact method was supplied, so STEWARD does not calculate an individual charge."]
-  },
-
-  quarry: {
-    id: "quarry", number: "08", name: "Quarry Park Improvements", shortName: "Quarry Park",
-    category: "Parks and recreation", status: "Planning and neighborhood engagement", statusTone: "planning",
-    lastVerified: "August 2026", verifiedBy: "North Castle Parks & Recreation minutes",
-    heroImage: "", heroAlt: "Quarry Park project image not yet added",
-    summary: "A neighborhood park project in Quarry Heights centered on cleanup, boundary clarification and a proposed small basketball area. It is separate from the IBM Community Park and Clove Road field renovations.",
-    location: "Quarry Park, off Old Orchard Street, Quarry Heights", department: "Parks & Recreation",
-    costLabel: "Project cost", costValue: "Not yet available", costNote: "The minutes describe a developing concept, not an approved construction budget or award.",
-    story:{
-      context:"Quarry Park is a compact neighborhood park—not a ballfield-renovation project. The principal proposed recreation improvement is a small basketball area, accompanied by site cleanup, playground attention and survey work to establish the park boundaries before permanent improvements proceed.",
-      people:"Children and families in Quarry Heights gain nearby recreation and refreshed playground space. Immediate neighbors are especially affected by potential noise, hours, traffic and all-day use because the park sits within a residential setting.",
-      discussion:"The Town received a petition opposing a basketball court in September 2025. January minutes record concern about all-day/all-night activity and a plan to meet affected residents. By February, the Town said clarifications had eased concern and planned cleanup, survey, boundary documentation and a basketball area; clearing was underway by April.",
-      next:"Clarify the final pad design, hours and neighborhood safeguards; document whether the work has formal authorization; and publish the cost, funding, procurement path and completion status."
-    },
-    process:[
-      {date:"January 2026",title:"Basketball concept and resident concerns",description:"Minutes describe a proposed half-court basketball pad and neighborhood concerns about potential activity and hours.",state:"complete"},
-      {date:"February 2026",title:"Survey and boundaries added to planning",description:"The Town planned cleanup, an official survey, accurate park-boundary records and a basketball area.",state:"complete"},
-      {date:"Planned next step",title:"Neighborhood-informed project development",description:"The record indicates continued engagement and anticipated work, but STEWARD has not located a final design, appropriation, bid or award.",state:"future"}
-    ],
-    costBreakdown:[], funding:[],
-    impact:{type:"none",available:false,heading:"No financial impact analysis",explanation:"The project is still described at a planning stage, without an authoritative cost or funding plan in the linked records.",benchmark:"No household estimate displayed",attribution:"Status is based on official advisory-board minutes."},
-    gallery:[],
-    sources:[
-      {label:"Current plan",title:"Parks & Recreation minutes — February 3, 2026",href:"https://www.northcastleny.com/AgendaCenter/ViewFile/Minutes/_02032026-1015",note:"Cleanup, survey, boundaries and proposed basketball area."},
-      {label:"Earlier discussion",title:"Parks & Recreation minutes — January 6, 2026",href:"https://www.northcastleny.com/AgendaCenter/ViewFile/Minutes/_01062026-1016",note:"Half-court concept, resident concerns and proposed outreach."},
-      {label:"Location",title:"North Castle Parks & Facilities",href:"https://www.northcastleny.com/194/Parks-Facilities",note:"Official park location and current amenities."}
-    ],
-    cautions:["The basketball area is a proposal, not a documented approved construction award.","No verified cost, funding or resident-impact calculation is available in the linked records."]
   }
 };
