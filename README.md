@@ -21,7 +21,7 @@ Then visit `http://localhost:8000`.
 
 ## Current projects
 
-- Bedford Road Redevelopment
+- Town Hall Relocation
 - Water District No. 9 Extension
 - IBM Community Park Turf Fields
 - Town Pool Renovation
