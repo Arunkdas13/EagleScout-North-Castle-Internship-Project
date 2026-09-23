@@ -7,6 +7,14 @@ Town of North Castle, New York. It explains what each project is, where it is in
 the public process, how much it may cost, how it is or may be funded, and what
 impact—if any—can responsibly be shown for residents.
 
+The application is designed as sustainable civic infrastructure: it preserves
+project history, keeps fund allocations traceable, supports better future
+decisions and gives new Town projects a consistent transparency standard.
+
+Each project is organized into four focused views—Overview, Timeline, Costs &
+Impact, and Records & Visuals—so residents can reach the information they need
+without reading one continuous page.
+
 ## Open the application
 
 No installation is required. Open `index.html` in a web browser.
