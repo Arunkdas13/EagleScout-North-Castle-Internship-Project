@@ -772,6 +772,17 @@ body {
   letter-spacing: -.035em;
 }
 .hero-lede { max-width: 700px; color: #425661; font-size: 17px; }
+.hero-byline {
+  margin: 14px 0 0;
+  color: #b8d8cf;
+  font-size: 14px;
+  letter-spacing: .025em;
+}
+
+.hero-byline strong {
+  color: #fff;
+  font-weight: 700;
+}
 .button-primary { color: #fff; background: var(--navy); }
 .button-secondary { color: var(--navy); background: #fff; border-color: #aebbc3; }
 .hero-summary {
